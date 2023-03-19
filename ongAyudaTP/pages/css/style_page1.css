@@ -42,8 +42,16 @@ body {
   #Integrantes, #Peludos {
     text-align: left;
   }
+
   .center {
     margin: auto;
     width: 50%;
     padding: 10px;
   }
+
+  #Logo, #About, #Contact{
+    display: inline-block;
+    padding-right: 10%;
+  }
+
+  
