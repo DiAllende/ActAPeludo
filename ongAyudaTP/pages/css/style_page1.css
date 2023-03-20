@@ -47,6 +47,7 @@ body {
     margin: auto;
     width: 50%;
     padding: 10px;
+<<<<<<< HEAD
   }
 
   #Logo, #About, #Contact{
@@ -55,3 +56,25 @@ body {
   }
 
   
+=======
+<<<<<<< HEAD
+  }
+
+  .contenedorFotos {
+    margin-left: 1%;
+    margin-block-end: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .text{padding-left: 10%;
+    text-align: justify;
+  }
+  
+  #subtitulo{margin-left: 1%;
+    }
+=======
+  }
+>>>>>>> main
+>>>>>>> main
