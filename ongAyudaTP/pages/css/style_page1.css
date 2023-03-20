@@ -42,13 +42,17 @@ body {
   #Integrantes, #Peludos {
     text-align: left;
   }
+
   .center {
     margin: auto;
     width: 50%;
     padding: 10px;
-<<<<<<< HEAD
+
   }
 
+  #Logo, #About, #Contact{
+    text-align: center;
+  }
   .contenedorFotos {
     margin-left: 1%;
     margin-block-end: 2%;
@@ -63,6 +67,3 @@ body {
   
   #subtitulo{margin-left: 1%;
     }
-=======
-  }
->>>>>>> main
