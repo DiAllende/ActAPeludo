@@ -42,6 +42,7 @@ body {
   #Integrantes, #Peludos {
     text-align: left;
   }
+
   .center {
     margin: auto;
     width: 50%;
@@ -49,6 +50,9 @@ body {
 
   }
 
+  #Logo, #About, #Contact{
+    text-align: center;
+  }
   .contenedorFotos {
     margin-left: 1%;
     margin-block-end: 2%;
