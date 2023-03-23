@@ -3,3 +3,12 @@
   padding-bottom: 20%;
 
 }
+
+.imagen{
+  width: 500px;
+  height: 500px;
+}
+
+#textofuente {
+    font-size: 35px;
+}

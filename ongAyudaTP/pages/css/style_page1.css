@@ -47,6 +47,11 @@ body {
     margin: auto;
     width: 50%;
     padding: 10px;
+  }
+
+  .contenedorFotos {
+    margin-left: 1%;
+    margin-block-end: 2%;
 
   }
 
@@ -66,12 +71,22 @@ body {
     text-align: justify;
   }
   
+
+  #subtitulo{margin-left: 1%;
+
   #subtitulo{
     margin-left: 1%;
+
     }
 
   .textdesc{
     flex-direction: column;
     margin-left: 1%;
+
+    font-size: 40px
+=======
+  }
+
+=======
   }
 
