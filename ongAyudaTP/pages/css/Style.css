@@ -1,6 +1,10 @@
-body {
-    background-color: black;
-  }
-h1{
-    color: blue;
+#contenedorFotos{
+  padding-top: 20%;
+  padding-bottom: 20%;
+
+}
+
+.imagen{
+  width: 500px;
+  height: 500px;
 }
