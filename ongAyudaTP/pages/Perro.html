@@ -2,20 +2,33 @@
 <html>
     <head>
         <meta charset="UTF-8">
-
-        <link rel="stylesheet" href="css/style_page1.css">
-
         <title>
             Perro Page
         </title>
+
+        <script type="text/javascript" src="JS/Style.js"></script>
+    <link rel="stylesheet" href="css/EstiloCuadros.css">
+    <link rel="stylesheet" href="css/style_page1.css">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="stylesheet" href="css/EstiloFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
     </head>
 <body>
-    <nav id="NavPage">
-        <a href="index.html">Home</a>
-        <a href="gato.html">Gato Page</a>
-        <a href="#Contact">Contact</a>
-    </nav>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Inicio</a>
+        <a href="gato.html">Gatos</a>
+        <a href="Perro.html">Perros</a>
+        <a href="AcercaDeNosotros.html">Acerca de nosotros</a>
+        <a href="#Contacto#">Contact</a>
+    </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Abrir Menu</button>
+      </div>
+  </div>
     <div id="principal">
         <h1>
             PERROS EN ADOPCI&Oacute;N
@@ -60,32 +73,67 @@
             <a href="#"><p class="text">Blue Lacy</p></a>   
         </div>
 </body>
-        <footer>
-            <h2>footer</h2>
-            <div id="foot">
-                <div id="Logo">
-                    <p>
-                        //LOGO//
-                    </p>
-                </div>
-                <div id="About">
-                    <h3>
-                        About Us
-                    </h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit suscipit quod repellendus molestiae quibusdam sapiente est,<br>
-                         ut commodi excepturi. Eaque eum consequatur nemo dicta enim facilis voluptatem dolore deleniti aliquam.
-                    </p>
-                </div>
-                <div id="Contact">
-                    <h3>
-                        Contact 
-                    </h3>
-                    <a href="https://www.instagram.com"><button type="button"></button></a><p>Instagram</p>
-                    <a href="https://www.facebook.com"><button type="button"></button></a><p>Facebook</p>
-                    <a href="https://www.twitter.com"><button type="button"></button></a><p style="margin-bottom: 0%;">Twitter</p>
-                </div>
-            </div>
-        </footer>
+<div id="Contacto">          
+    <footer class="footer-distributed">
+        <div class="footer-left">
+  
+          <h3>Perrosygatos<span>Company</span></h3>
+  
+          <p class="footer-links">
+            <a href="#" class="link-1">Home</a>
+            
+            <a href="#">Blog</a>
+          
+            <a href="#">Perros</a>
+          
+            <a href="#">Gatos</a>
+            
+            <a href="#">About</a>
+            
+            <a href="#">Contact</a>
+          </p>
+  
+          <p class="footer-company-name">Company perrosygatos © 2015</p>
+        </div>
+  
+        <div class="footer-center">
+  
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Antonio Varas 666</span> Providencia, Región Metropolitana</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+1.555.555.5555</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">perrosygatos@company.com</a></p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+  
+          <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+          </p>
+  
+          <div class="footer-icons">
+  
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+  
+          </div>
+  
+        </div>
+  
+      </footer>
+    </div>
 
 </html>
