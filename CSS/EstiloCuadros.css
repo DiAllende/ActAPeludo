@@ -1,0 +1,62 @@
+.back{
+    background-color: rgb(37, 36, 36);
+
+}
+
+.contenedorceleste{
+    background-color: skyblue;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.contenedoramarillo{
+    background-color: yellow;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.contenedornaranja{
+    background-color: orange;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.contenedoRojo{
+    background-color: red;
+    height: 30vh;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.T{
+    margin-left: 50px;
+    margin-right: 20px;
+    width: auto;
+}
