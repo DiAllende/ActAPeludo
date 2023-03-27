@@ -1,0 +1,55 @@
+#contenedorFotos{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  
+  }
+  
+  .imagen{
+    width: 500px;
+    height: 500px;
+  }
+  
+  #textofuente {
+      font-size: 35px;
+      flex-direction: column;
+      margin-left: 1%;
+  }
+  
+  #principal{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  
+  #cargos, #secciones{
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  
+  #Integrantes, #Peludos {
+    text-align: left;
+  }
+  
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .contenedorFotos {
+    margin-left: 1%;
+    margin-block-end: 2%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .text{padding-left: 10%;
+    text-align: justify;
+  }
+  
+  
+  #subtitulo{margin-left: 1%;
+    }
