@@ -20,6 +20,7 @@ body {
   }
 
  #principal{
+    color: white;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 3%;
@@ -37,6 +38,7 @@ body {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 3%;
+    color: white;
   }
 
   #Integrantes, #Peludos {
@@ -72,21 +74,7 @@ body {
   }
   
 
-  #subtitulo{margin-left: 1%;
-
   #subtitulo{
     margin-left: 1%;
-
+    color: white;
     }
-
-  .textdesc{
-    flex-direction: column;
-    margin-left: 1%;
-
-    font-size: 40px
-=======
-  }
-
-=======
-  }
-

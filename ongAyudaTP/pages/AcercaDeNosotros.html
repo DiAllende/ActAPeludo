@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Main</title>
-    <script type="text/javascript" src="JS/Style.js"></script>
-    <link rel="stylesheet" href="CSS/EstiloCuadros.css">
-    <link rel="stylesheet" href="CSS/EstiloFooter.css">
-    <link rel="stylesheet" href="CSS/EstiloPagPrincipal.css">
-    <link rel="stylesheet" href="CSS/Estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Nosotros
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="JS/Style.js"></script>
+        <link rel="stylesheet" href="css/Estilo.css">
+        <link rel="stylesheet" href="css/EstiloCuadros.css">
+        <link rel="stylesheet" href="css/EstiloFooter.css">
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="stylesheet" href="css/style_page1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    
 <body class="back">
-    <div>
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Inicio</a>
-        <a href="gato.html">Gatos</a>
-        <a href="Perro.html">Perros</a>
-        <a href="#Contacto#">Contact</a>
-    </div>
-      
-      <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776; Abrir Menu</button>
-      </div>
-    </div>
 
+ <!-- MENU LATERAL -->
+  <div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Inicio</a>
+      <a href="gato.html">Gatos</a>
+      <a href="Perro.html">Perros</a>
+      <a href="#Contacto" onclick="closeNav()">Contact</a>
+    </div>
+              
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776; Abrir menu</button>
+    </div>
+  </div>
+<!-- FIN MENU LATERAL -->
+<!-- LOGO PAG -->
+  <a href="index.html"><img src="Imagenes/Logo.png" width="100" height="100" style="z-index: 1; position: absolute; top: 2px; right: 10px; margin: 5px;"></a>
+<!-- FIN LOGO PAG --> 
+<!-- CUADROS --> 
     <div class="contenedorceleste">
         <h1 class="T">Title</h1>
         <p class="T">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, corporis. Nemo rem, hic dolores mollitia voluptatibus cum dolore qui autem corrupti magnam maiores nostrum porro, rerum molestias debitis, ipsum aperiam.
@@ -56,67 +70,69 @@
     </p>
   </div>
 
-</body>   
-        <div id="Contacto">          
-        <footer class="footer-distributed">
-            <div class="footer-left">
-      
-              <h3>Perrosygatos<span>Company</span></h3>
-      
-              <p class="footer-links">
-                <a href="#" class="link-1">Home</a>
+<!-- FIN CUADROS -->   
+    </body>
+
+<!-- Fin del body-->
+
+<!--  Inicio del Footer -->
+<div id="Contacto"> 
+  <footer class="footer-distributed">
+  <div class="footer-left">
+        
+    <a href="index.html"><img src="Imagenes/LogoNegativoLargo.png" width="300" height="100"></a>
+        
+    <p class="footer-links">
+      <a href="#" class="link-1">Home</a>
                 
-                <a href="#">Blog</a>
-              
-                <a href="#">Perros</a>
-              
-                <a href="#">Gatos</a>
+      <a href="Perro.html">Perros</a>
                 
-                <a href="#">About</a>
-                
-                <a href="#">Contact</a>
-              </p>
-      
-              <p class="footer-company-name">Company perrosygatos © 2015</p>
-            </div>
-      
-            <div class="footer-center">
-      
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Antonio Varas 666</span> Providencia, Región Metropolitana</p>
-              </div>
-      
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+1.555.555.5555</p>
-              </div>
-      
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:support@company.com">perrosygatos@company.com</a></p>
-              </div>
-      
-            </div>
-      
-            <div class="footer-right">
-      
-              <p class="footer-company-about">
-                <span>About the company</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-              </p>
-      
-              <div class="footer-icons">
-      
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-      
-              </div>
-      
-            </div>
-      
-          </footer>
-        </div>
+      <a href="gato.html">Gatos</a>
+                  
+      <a href="AcercaDeNosotros.html">About</a>
+                  
+      <a href="#Contacto">Contact</a>
+    </p>
+        
+    <p class="footer-company-name">MiauTec. Company © 2023</p>
+  </div>
+        
+  <div class="footer-center">
+        
+    <div>
+      <i class="fa fa-map-marker"></i>
+        <p><span>Antonio Varas 666</span> Providencia, Región Metropolitana</p>
+    </div>
+        
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+56 555 555 5555</p>
+    </div>
+        
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">miautec@company.com</a></p>
+    </div>
+        
+  </div>
+        
+  <div class="footer-right">
+        
+    <p class="footer-company-about">
+      <span>Acerca de la organizaci&oacute;n</span>
+      Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+    </p>
+        
+    <div class="footer-icons">
+        
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+        
+    </div>
+  </div>
+  </footer>
+</div>
+<!-- Fin del Footer -->  
 </html>
