@@ -10,7 +10,8 @@
 }
 
 #textofuente {
-    font-size: 35px;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 25px;
     flex-direction: column;
     margin-left: 1%;
 }

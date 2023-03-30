@@ -2,66 +2,160 @@
 <html>
     <head>
         <meta charset="UTF-8">
-
-        <link rel="stylesheet" href="css/style_page1.css">
-        <link rel="stylesheet" href="css/Style.css">
-
         <title>
-            Gato Page
+            Gato Bombay
         </title>
-        
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="JS/Style.js"></script>
+        <link rel="stylesheet" href="css/Estilo.css">
+        <link rel="stylesheet" href="css/EstiloCuadros.css">
+        <link rel="stylesheet" href="css/EstiloFooter.css">
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="stylesheet" href="css/style_page1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-        <body>
-            <nav id="NavPage">
-                <a href="index.html">Home</a>
-                <a href="gato.html">Gato Page</a>
-                <a href="Perro.html">Perro Page</a>
-                <a href="#Contact">Contact</a>
-            </nav>
-            <div id="lista de gatos">  
-                    
-                <div id = "contenedorFotos" class="contenedorFotos">
-                    <img src="https://www.dogalize.com/wp-content/uploads/2019/05/gato-negro-200x200.jpg" class="imagen">
-                    
-                    <div class="textdesc" id="textofuente">
-                        <p>Nombre del gato: Mei </p>
-                        <p>Edad: 6 años</p>
-                        <p>G&eacute;nero: Hembra</p>
-                        <p>Esterilizado: Si</p>
-                        <p>Nro. chip: 293944852931</p>
-                    </div>
-                    
-                </div>
-                
+    
+    
+<body class="secondback">
 
-        </body>
-        <footer>
-            <h2>footer</h2>
-            <div id="foot">
-                <div id="Logo">
-                    <p>
-                        //LOGO//
-                    </p>
-                </div>
-                <div id="About">
-                    <h3>
-                        About Us
-                    </h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit suscipit quod repellendus molestiae quibusdam sapiente est,<br>
-                         ut commodi excepturi. Eaque eum consequatur nemo dicta enim facilis voluptatem dolore deleniti aliquam.
-                    </p>
-                </div>
+ <!-- MENU LATERAL -->
+  <div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Inicio</a>
+      <a href="gato.html">Gatos</a>
+      <a href="Perro.html">Perros</a>
+      <a href="AcercaDeNosotros.html">Nosotros</a>
+      <a href="#Contacto" onclick="closeNav()">Contact</a>
+    </div>
+              
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776; Abrir menu</button>
+    </div>
+  </div>
+<!-- FIN MENU LATERAL -->
+<!-- LOGO PAG -->
+  <a href="index.html"><img src="Imagenes/Logo.png" width="100" height="100" style="z-index: 1; position: absolute; top: 2px; right: 10px; margin: 5px;"></a>
+<!-- FIN LOGO PAG --> 
+<!-- CAROUSEL -->
+  <div class="container">
+    <div class="row" style="margin-left: -250px; margin-top: 150px; margin-bottom: 150px;">
+      <div class="col">
+        <div class="col-md-auto">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"> 
+                  <img src="https://myanimallife.com/ow_userfiles/plugins/articles/article_icon_5a23b62ce958e.jpg" class="d-block w-100" alt="..."> 
+                </button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
+                  <img src="https://siempremujer.com/imgs/images/image-83191-8385.jpg" class="d-block w-100" alt="...">
+                </button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3">
+                  <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/dsc_8229.jpg?w=400&h=400&q=75" class="d-block w-100" alt="...">
+                </button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://myanimallife.com/ow_userfiles/plugins/articles/article_icon_5a23b62ce958e.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://siempremujer.com/imgs/images/image-83191-8385.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/dsc_8229.jpg?w=400&h=400&q=75" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+<!-- FIN CAROUSEL -->
+<!-- DESCRIPCION --> 
+      <div class="col" id="textofuente">
+        <h1>BIO</h1>
+        <br>
+        <p style="border-bottom: 1px solid black;">Nro. chip:               293944852931</p>
+        <p style="border-bottom: 1px solid black;">Nombre del gato:                  Mei</p>
+        <p style="border-bottom: 1px solid black;">Edad:                          6 años</p>
+        <p style="border-bottom: 1px solid black;">Raza:                          Bombay</p>
+        <p style="border-bottom: 1px solid black;">Sexo:                          Hembra</p>
+        <p style="border-bottom: 1px solid black;">Esterilizado:                      Si</p>       
+      </div>
+      <div class="col" id="textofuente" style="border-left: 1px solid black; height: 100%;">
+        <h1>M&Aacute;S INFORMACI&Oacute;N</h1>
+        <br>
+        <p style="border-bottom: 1px solid black;">Se adapata a Dpto.:                No</p>
+        <p style="border-bottom: 1px solid black;">Convive con niños:                 Si</p>
+        <p style="border-bottom: 1px solid black;">Convive con perros:                No</p>
+        <p style="border-bottom: 1px solid black;">Convive con gatos:                 Si</p>
+        <p style="border-bottom: 1px solid black;">Nivel de energ&iacute;a:         Alto</p>
+      </div>
+    </div>
+  </div>                 
+<!-- FIN DESCRIPCION -->   
+    </body>
+
+<!-- Fin del body-->
+
+<!--  Inicio del Footer -->
+<div id="Contacto"> 
+  <footer class="footer-distributed">
+  <div class="footer-left">
+        
+    <a href="index.html"><img src="Imagenes/LogoNegativoLargo.png" width="300" height="100"></a>
+        
+    <p class="footer-links">
+      <a href="#" class="link-1">Home</a>
                 
-                <div id="Contact">
-                    <h3>
-                        Contact 
-                    </h3>
-                    <a href="https://www.instagram.com"><button type="button"></button></a><p>Instagram</p>
-                    <a href="https://www.facebook.com"><button type="button"></button></a><p>Facebook</p>
-                    <a href="https://www.twitter.com"><button type="button"></button></a><p style="margin-bottom: 0%;">Twitter</p>
-                </div>
-            </div>
-        </footer>
+      <a href="Perro.html">Perros</a>
+                
+      <a href="gato.html">Gatos</a>
+                  
+      <a href="AcercaDeNosotros.html">About</a>
+                  
+      <a href="#Contacto">Contact</a>
+    </p>
+        
+    <p class="footer-company-name">MiauTec. Company © 2023</p>
+  </div>
+        
+  <div class="footer-center">
+        
+    <div>
+      <i class="fa fa-map-marker"></i>
+        <p><span>Antonio Varas 666</span> Providencia, Región Metropolitana</p>
+    </div>
+        
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+56 555 555 5555</p>
+    </div>
+        
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">miautec@company.com</a></p>
+    </div>
+        
+  </div>
+        
+  <div class="footer-right">
+        
+    <p class="footer-company-about">
+      <span>Acerca de la organizaci&oacute;n</span>
+      Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+    </p>
+        
+    <div class="footer-icons">
+        
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+        
+    </div>
+  </div>
+  </footer>
+</div>
+<!-- Fin del Footer -->  
 </html>

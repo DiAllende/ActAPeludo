@@ -17,143 +17,154 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     
-    
-    <body>
-        <div>
-            <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="index.html">Inicio</a>
-                <a href="#">Gatos</a>
-                <a href="#">Perros</a>
-                <a href="AcercaDeNosotros.html">Acerca de nosotros</a>
-                <a href="#Contacto#">Contact</a>
-            </div>
+<body class="back">
+
+ <!-- MENU LATERAL -->
+  <div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="gato.html">Gatos</a>
+      <a href="Perro.html">Perros</a>
+      <a href="AcercaDeNosotros.html">Nosotros</a>
+      <a href="#Contacto" onclick="closeNav()">Contact</a>
+    </div>
               
-              <div id="main">
-                <button class="openbtn" onclick="openNav()">&#9776; Abrir menu</button>
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776; Abrir menu</button>
+    </div>
+  </div>
+<!-- FIN MENU LATERAL -->
+<!-- LOGO PAG -->
+  <a href="index.html"><img src="Imagenes/Logo.png" width="100" height="100" style="z-index: 1; position: absolute; top: 2px; right: 10px; margin: 5px;"></a>
+<!-- FIN LOGO PAG --> 
+<!-- CAROUSEL --> 
+  <div class="container">
+    <div class="row justify-content-md-center" style="margin-top: 60px;">
+      <div class="col-md-auto">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
-          </div>
-          <div class="container">
-            <div class="row justify-content-md-center">
-              <div class="col-md-auto">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="https://i.ytimg.com/vi/932XRGF47nQ/maxresdefault.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item" data-bs-interval="2000">
-                        <a href="Perro.html"><img src="https://www.science.org/do/10.1126/science.aba2340/abs/dogs_1280p_0.jpg" class="d-block w-100" alt="..."></a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="gato.html"><img src="https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/16:9/w_1280,c_limit/1521-WIRED-Cat.jpeg" class="d-block w-100" alt="..."></a>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Siguiente</span>
-                    </button>
+              <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://i.ytimg.com/vi/932XRGF47nQ/maxresdefault.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <a href="Perro.html"><img src="https://www.science.org/do/10.1126/science.aba2340/abs/dogs_1280p_0.jpg" class="d-block w-100" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="gato.html"><img src="https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/16:9/w_1280,c_limit/1521-WIRED-Cat.jpeg" class="d-block w-100" alt="..."></a>
                   </div>
               </div>
-            </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
           </div>
-          
-          <div id="principal">
-            <h1>
-                ONG - AYUDA UN PELUDO
-            </h1>
-            <div>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque eligendi illo officia fuga qui quae reprehenderit architecto <br>
-                    nisi dolor voluptatem recusandae consequatur nesciunt ducimus dignissimos iste, tenetur est iure optio? <br>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem molestiae quam eos. Odit hic necessitatibus totam praesentium, <br>
-                     nisi in harum soluta unde! Nulla quam illo sunt reiciendis sint ipsam magni?
-                </p>
-              </div>
         </div>
-        <div id="cargos" class="center">
-            <h3>
-                Nuestros Integrantes: 
-            </h3>
-            <div id="Integrantes">
-                <ul>
-                    <li>Integrante 1 - Cargo 1</li>
-                    <li>Integrante 2 - Cargo 2</li>
-                    <li>Integrante 3 - Cargo 3</li>
-                    <li>Integrante 4 - Cargo 4</li>
-                </ul>
-            </div>
-        </div>
+      </div>
+    </div>
+  </div>
+<!-- FIN CAROUSEL -->
+<br>
+<!-- TEXTO DESCRIPTIVO -->           
+  <div id="principal">
+    <h1>
+      ONG - AYUDA UN PELUDO
+    </h1>
+    <div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque eligendi illo officia fuga qui quae reprehenderit architecto <br>
+        nisi dolor voluptatem recusandae consequatur nesciunt ducimus dignissimos iste, tenetur est iure optio? <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem molestiae quam eos. Odit hic necessitatibus totam praesentium, <br>
+        nisi in harum soluta unde! Nulla quam illo sunt reiciendis sint ipsam magni?
+      </p>
+    </div>
+  </div>
+<!-- FIN TEXTO DESCRIPTIVO -->
+<!-- CARGOS -->  
+  <div id="cargos" class="center">
+    <h3>
+      Nuestros Integrantes: 
+    </h3>
+    <div id="Integrantes">
+      <ul>
+        <li>Integrante 1 - Cargo 1</li>
+        <li>Integrante 2 - Cargo 2</li>
+        <li>Integrante 3 - Cargo 3</li>
+        <li>Integrante 4 - Cargo 4</li>
+      </ul>
+    </div>
+  </div>
+<!-- FIN CARGOS -->   
     </body>
 
-    <div id="Contacto">          
-        <footer class="footer-distributed">
-            <div class="footer-left">
-      
-              <h3>Perrosygatos<span>Company</span></h3>
-      
-              <p class="footer-links">
-                <a href="#" class="link-1">Home</a>
+<!-- Fin del body-->
+
+<!--  Inicio del Footer -->
+<div id="Contacto"> 
+  <footer class="footer-distributed">
+  <div class="footer-left">
+        
+    <a href="index.html"><img src="Imagenes/LogoNegativoLargo.png" width="300" height="100"></a>
+        
+    <p class="footer-links">
+      <a href="#" class="link-1">Home</a>
                 
-                <a href="#">Blog</a>
-              
-                <a href="#">Perros</a>
-              
-                <a href="#">Gatos</a>
+      <a href="Perro.html">Perros</a>
                 
-                <a href="#">About</a>
-                
-                <a href="#">Contact</a>
-              </p>
-      
-              <p class="footer-company-name">Company perrosygatos © 2015</p>
-            </div>
-      
-            <div class="footer-center">
-      
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Antonio Varas 666</span> Providencia, Región Metropolitana</p>
-              </div>
-      
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+1.555.555.5555</p>
-              </div>
-      
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:support@company.com">perrosygatos@company.com</a></p>
-              </div>
-      
-            </div>
-      
-            <div class="footer-right">
-      
-              <p class="footer-company-about">
-                <span>About the company</span>
-                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-              </p>
-      
-              <div class="footer-icons">
-      
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-      
-              </div>
-      
-            </div>
-      
-          </footer>
-        </div>
+      <a href="gato.html">Gatos</a>
+                  
+      <a href="AcercaDeNosotros.html">About</a>
+                  
+      <a href="#Contacto">Contact</a>
+    </p>
+        
+    <p class="footer-company-name">MiauTec. Company © 2023</p>
+  </div>
+        
+  <div class="footer-center">
+        
+    <div>
+      <i class="fa fa-map-marker"></i>
+        <p><span>Antonio Varas 666</span> Providencia, Región Metropolitana</p>
+    </div>
+        
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+56 555 555 5555</p>
+    </div>
+        
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">miautec@company.com</a></p>
+    </div>
+        
+  </div>
+        
+  <div class="footer-right">
+        
+    <p class="footer-company-about">
+      <span>Acerca de la organizaci&oacute;n</span>
+      Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+    </p>
+        
+    <div class="footer-icons">
+        
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+        
+    </div>
+  </div>
+  </footer>
+</div>
+<!-- Fin del Footer -->  
 </html>

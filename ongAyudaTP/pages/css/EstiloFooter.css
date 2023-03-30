@@ -6,7 +6,7 @@
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
-    bottom: 0;
+    bottom: auto;
 }
 
 .footer-distributed .footer-left,
@@ -64,7 +64,7 @@
 }
 
 .footer-distributed .footer-center i{
-	background-color:  rebeccapurple;
+	background-color:  orange;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -146,7 +146,7 @@
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  rebeccapurple;
+	background-color:  orange;
 	border-radius: 2px;
 
 	font-size: 20px;

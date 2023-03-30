@@ -2,90 +2,168 @@
 <html>
     <head>
         <meta charset="UTF-8">
-
-        <link rel="stylesheet" href="css/style_page1.css">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>
             Perro Page
         </title>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="JS/Style.js"></script>
+        <link rel="stylesheet" href="css/Estilo.css">
+        <link rel="stylesheet" href="css/EstiloCuadros.css">
+        <link rel="stylesheet" href="css/EstiloFooter.css">
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="stylesheet" href="css/style_page1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
-<body>
-    <nav id="NavPage">
-        <a href="index.html">Home</a>
-        <a href="gato.html">Gato Page</a>
-        <a href="#Contact">Contact</a>
-    </nav>
+<body class="back">
+
+  <!-- MENU LATERAL -->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Inicio</a>
+      <a href="gato.html">Gatos</a>
+      <a href="AcercaDeNosotros.html">Nosotros</a>
+      <a href="#Contacto" onclick="closeNav()">Contact</a>
+    </div>
+              
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">&#9776; Abrir menu</button>
+    </div>
+    <!-- FIN MENU LATERAL -->
+    <!-- LOGO PAG -->    
+    <a href="index.html"><img src="Imagenes/Logo.png" width="100" height="100" style="position: absolute; top: 2px; right: 10px; margin: 5px;"></a>
+    <!-- FIN LOGO PAG -->
+<!-- PARTE SUPERIOR TEXTO -->
     <div id="principal">
-        <h1>
-            PERROS EN ADOPCI&Oacute;N
-        </h1>
-        <h2>
-            DETALLES
-        </h2>
-        <div>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque eligendi illo officia fuga qui quae reprehenderit architecto <br>
-                nisi dolor voluptatem recusandae consequatur nesciunt ducimus dignissimos iste, tenetur est iure optio? <br>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem molestiae quam eos. Odit hic necessitatibus totam praesentium, <br>
-                nisi in harum soluta unde! Nulla quam illo sunt reiciendis sint ipsam magni? 
-            </p>
+      <h1>
+          PERROS EN ADOPCI&Oacute;N
+      </h1>
+      <h2>
+          DETALLES
+      </h2>
+      <div>
+          <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque eligendi illo officia fuga qui quae reprehenderit architecto <br>
+              nisi dolor voluptatem recusandae consequatur nesciunt ducimus dignissimos iste, tenetur est iure optio? <br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem molestiae quam eos. Odit hic necessitatibus totam praesentium, <br>
+              nisi in harum soluta unde! Nulla quam illo sunt reiciendis sint ipsam magni? 
+          </p>
+      </div>
+  </div>
+
+  <div id="subtitulo">
+  <h2>
+      NUESTROS PERROS QUE BUSCAN FAMILIA:
+  </h2>
+  </div>
+
+  <br>
+<!-- FIN PARTE SUPERIOR TEXTO -->
+<!-- TARJETAS -->
+<!--  TARJETA 1 -->
+  <div class="container pb-5" style="padding: 0 15px;">
+    <div class="d-flex justify-content-between">
+      <div class="card" style="width: 18rem; background-color: orange;">
+        </a><img src="https://www.dogalize.com/wp-content/uploads/2017/04/collares-y-correas-para-perros-200x200.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adopta este perro!</h5>
+          <p class="card-text">Tomy es una de nuestros perros que buscan familia, su raza es la de un perro labrador. <br>
+                                Adopta no compres!
+                            </p>
+          <a href="labrador.html" class="btn btn-primary">Ver ficha</a>
         </div>
+      </div>
+<!-- TARJETA 2 -->
+      <div class="card" style="width: 18rem; background-color: orange;">
+        <img src="https://i.pinimg.com/236x/a1/af/3d/a1af3d97ce59bbdba8ee9cf8ec26630a--shar-pei-puppies-animal-portraits.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adopta este perro!</h5>
+          <p class="card-text">Rock es una de nuestros perros que buscan familia, su raza es la de un perro sharpai. <br>
+                                Adopta no compres!
+                              </p>
+          <a href="sharpai.html" class="btn btn-primary">Ver ficha</a>
+        </div>
+      </div>
+<!-- TARJETA 3 -->
+      <div class="card" style="width: 18rem; background-color: orange;">
+        <img src="https://mazatlananimalrescue.com/wp-content/uploads/2022/11/Stormi-DR-200x200.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Adopta este perro!</h5>
+          <p class="card-text">Nemo es una de nuestros perros que buscan familia, su raza es la de un perro bluelacy. <br>
+                                Adopta no compres!
+                              </p>
+          <a href="bluelacy.html" class="btn btn-primary">Ver fichar</a>
+        </div>
+      </div>
     </div>
+  </div>
+<!--  FIN DE LAS TARJETAS -->
+        </body>
 
-    <div id="subtitulo">
-    <h2>
-        Nuestros perros que buscan familia
-    </h2>
+<!-- Fin del body-->
+
+<!--  Inicio del Footer -->
+<div id="Contacto"> 
+  <footer class="footer-distributed">
+  <div class="footer-left">
+        
+    <a href="index.html"><img src="Imagenes/LogoNegativoLargo.png" width="300" height="100"></a>
+        
+    <p class="footer-links">
+      <a href="#" class="link-1">Home</a>
+                
+      <a href="Perro.html">Perros</a>
+                
+      <a href="gato.html">Gatos</a>
+                  
+      <a href="AcercaDeNosotros.html">About</a>
+                  
+      <a href="#Contacto">Contact</a>
+    </p>
+        
+    <p class="footer-company-name">MiauTec. Company © 2023</p>
+  </div>
+        
+  <div class="footer-center">
+        
+    <div>
+      <i class="fa fa-map-marker"></i>
+        <p><span>Antonio Varas 666</span> Providencia, Región Metropolitana</p>
     </div>
-
-    <br>
-                
-    <div class= "contenedorFotos" id="perro_1">
-            <img src="https://www.dogalize.com/wp-content/uploads/2017/04/collares-y-correas-para-perros-200x200.jpg" >
-            <a href="labrador.html"><p class="text" >Labrador retriever</p></a>
-        </div>
-                
-                
-            
-        <div  class= "contenedorFotos" id="perro_2">
-            <img src="https://i.pinimg.com/236x/a1/af/3d/a1af3d97ce59bbdba8ee9cf8ec26630a--shar-pei-puppies-animal-portraits.jpg" > 
-            <a href="sharpai.html"><p class="text" >Shar pei</p></a>   
-        </div>  
-
-                
-
-        <div  class= "contenedorFotos" id="perro_3">
-            <img src="https://mazatlananimalrescue.com/wp-content/uploads/2022/11/Stormi-DR-200x200.jpeg" > 
-            <a href="bluelacy.html"><p class="text">Blue Lacy</p></a>   
-        </div>
-</body>
-        <footer>
-            <h2>footer</h2>
-            <div id="foot">
-                <div id="Logo">
-                    <p>
-                        //LOGO//
-                    </p>
-                </div>
-                <div id="About">
-                    <h3>
-                        About Us
-                    </h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit suscipit quod repellendus molestiae quibusdam sapiente est,<br>
-                         ut commodi excepturi. Eaque eum consequatur nemo dicta enim facilis voluptatem dolore deleniti aliquam.
-                    </p>
-                </div>
-                <div id="Contact">
-                    <h3>
-                        Contact 
-                    </h3>
-                    <a href="https://www.instagram.com"><button type="button"></button></a><p>Instagram</p>
-                    <a href="https://www.facebook.com"><button type="button"></button></a><p>Facebook</p>
-                    <a href="https://www.twitter.com"><button type="button"></button></a><p style="margin-bottom: 0%;">Twitter</p>
-                </div>
-            </div>
-        </footer>
-
+        
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+56 555 555 5555</p>
+    </div>
+        
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">miautec@company.com</a></p>
+    </div>
+        
+  </div>
+        
+  <div class="footer-right">
+        
+    <p class="footer-company-about">
+      <span>Acerca de la organizaci&oacute;n</span>
+      Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+    </p>
+        
+    <div class="footer-icons">
+        
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+        
+    </div>
+  </div>
+  </footer>
+</div>
+<!-- Fin del Footer -->   
 </html>
